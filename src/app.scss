@@ -1,0 +1,26 @@
+$border: #F7F8FB;
+$deep-blue: #409EFF;
+$light-blue: #D5E9FF;
+
+@import "styles/users-table";
+@import "styles/users-table-header";
+@import "styles/add-user-modal";
+@import "styles/modal.scss";
+
+body {
+  font-size: 22px;
+  color: #989BA0;
+
+  table {
+    border-collapse: collapse;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  .App {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

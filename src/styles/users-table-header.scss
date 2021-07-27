@@ -1,0 +1,37 @@
+#users-table-header {
+  margin-top: 100px;
+
+  .users-table-header-search {
+    height: 30px;
+    padding-left: 10px;
+    border: 3px solid $border;
+    border-radius: 6px;
+  }
+
+  .users-table-header-buttons-container {
+    display: inline-block;
+    float: right;
+
+    button {
+      padding: 10px 15px;
+      border-radius: 5px;
+      margin-right: 15px;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+
+    .change-status-button {
+      background-color: $deep-blue;
+      color: $light-blue;
+      border-color: $light-blue;
+    }
+
+    .add-user-button {
+      background-color: $light-blue;
+      color: $deep-blue;
+      border-color: $deep-blue;
+    }
+  }
+}

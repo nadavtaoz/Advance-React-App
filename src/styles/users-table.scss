@@ -1,0 +1,38 @@
+#users-table-container {
+
+  .users-columns-buttons {
+    .column-button-container {
+      display: inline-block;
+      margin-right: 100px;
+
+      input {
+        width: 12px;
+        margin-right: 10px;
+      }
+      .checkbox-label {
+        display: inline-block;
+      }
+    }
+  }
+
+  .users-table {
+
+    width: 60%;
+
+    td, th {
+      width: 100px;
+      text-align: left;
+    }
+
+    tr {
+      border-bottom: 3px solid $border;
+      height: 50px;
+    }
+
+    tbody {
+
+    }
+  }
+}
+
+
